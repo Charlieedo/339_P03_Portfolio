@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+section {
+  max-width:57%;
+  margin: auto;
+  text-align: center;
+}
+
+.fa{
+  margin: 0.2em;
+  padding: 0.45em;
+  padding-top: 0.35em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.fa:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+
+.fa-youtube-play {
+  background: white;
+  color: black;
+}
+
+.fa-linkedin {
+  background: white;
+  color: black;
+}

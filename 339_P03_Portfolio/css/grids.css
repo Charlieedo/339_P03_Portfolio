@@ -1,0 +1,90 @@
+.wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+}
+
+.video-wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.video-wrap video{
+  min-width:100%;
+  min-height:100%;
+  object-fit: cover;
+}
+
+.overlay {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.landing-text {
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  flex: 70%;
+}
+
+.landingpagelogo{
+  z-index: 2;
+  min-height: 5.2vh;
+  max-height: 5.5vh;
+  flex: 25%;
+  margin-top: 2em;
+  padding-bottom: 18em;
+}
+
+h1 {
+  margin-bottom: 0.6em;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 0.2em;
+}
+
+.landingbtn  {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.8em 1em 0.8em 1.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.4em 0.2em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0.3em;
+  letter-spacing: 0.3em;
+ }
+
+.landingbtn:hover  {
+  color:  black;
+  background:  white;
+ }
+
+ .landingsocialicons {
+   padding-bottom: 4em;
+   flex-direction: row;
+   z-index: 4;
+ }
+
+ @media screen and (max-width: 748px) {
+   .landing-text{
+     margin-top: -5em;
+   }
+ }
